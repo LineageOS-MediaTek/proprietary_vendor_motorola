@@ -38,7 +38,7 @@ LOCAL_MODULE = libged
 LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX = .so
 LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 = prorietary/vendor/lib/libion_mtk.so
+LOCAL_SRC_FILES_32 = prorietary/vendor/lib/libged.so
 include $(BUILD_PREBUILT)
 
 endif
